@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,heat=0": {
+      "model": "candle_blaze:block/cold_blaze_heat_0",
+      "y": 90
+    },
+    "facing=east,heat=1": {
+      "model": "candle_blaze:block/cold_blaze_heat_1",
+      "y": 90
+    },
+    "facing=east,heat=2": {
+      "model": "candle_blaze:block/cold_blaze_heat_2",
+      "y": 90
+    },
+    "facing=east,heat=3": {
+      "model": "candle_blaze:block/cold_blaze_heat_3",
+      "y": 90
+    },
+    "facing=north,heat=0": {
+      "model": "candle_blaze:block/cold_blaze_heat_0"
+    },
+    "facing=north,heat=1": {
+      "model": "candle_blaze:block/cold_blaze_heat_1"
+    },
+    "facing=north,heat=2": {
+      "model": "candle_blaze:block/cold_blaze_heat_2"
+    },
+    "facing=north,heat=3": {
+      "model": "candle_blaze:block/cold_blaze_heat_3"
+    },
+    "facing=south,heat=0": {
+      "model": "candle_blaze:block/cold_blaze_heat_0",
+      "y": 180
+    },
+    "facing=south,heat=1": {
+      "model": "candle_blaze:block/cold_blaze_heat_1",
+      "y": 180
+    },
+    "facing=south,heat=2": {
+      "model": "candle_blaze:block/cold_blaze_heat_2",
+      "y": 180
+    },
+    "facing=south,heat=3": {
+      "model": "candle_blaze:block/cold_blaze_heat_3",
+      "y": 180
+    },
+    "facing=west,heat=0": {
+      "model": "candle_blaze:block/cold_blaze_heat_0",
+      "y": 270
+    },
+    "facing=west,heat=1": {
+      "model": "candle_blaze:block/cold_blaze_heat_1",
+      "y": 270
+    },
+    "facing=west,heat=2": {
+      "model": "candle_blaze:block/cold_blaze_heat_2",
+      "y": 270
+    },
+    "facing=west,heat=3": {
+      "model": "candle_blaze:block/cold_blaze_heat_3",
+      "y": 270
+    }
+  }
+}

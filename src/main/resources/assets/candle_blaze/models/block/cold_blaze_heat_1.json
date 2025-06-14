@@ -1,0 +1,7 @@
+{
+  "parent": "candle_blaze:block/cold_blaze",
+  "textures": {
+    "texture": "candle_blaze:block/cold_blaze_heat_1",
+    "particle": "candle_blaze:block/cold_blaze_heat_1"
+  }
+}
