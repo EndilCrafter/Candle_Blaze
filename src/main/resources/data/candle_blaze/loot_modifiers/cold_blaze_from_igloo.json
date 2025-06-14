@@ -3,10 +3,10 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/underwater_ruin_big"
+      "loot_table_id": "minecraft:chests/igloo_chest"
     },
     {
-      "chance": 0.5,
+      "chance": 0.75,
       "condition": "minecraft:random_chance"
     }
   ],

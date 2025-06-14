@@ -1,7 +1,8 @@
 {
   "entries": [
     "candle_blaze:cold_blaze_from_big_ruin",
-    "candle_blaze:cold_blaze_from_small_ruin"
+    "candle_blaze:cold_blaze_from_small_ruin",
+    "candle_blaze:cold_blaze_from_igloo"
   ],
   "replace": false
 }

@@ -1,5 +1,6 @@
 package com.endilcrafter.candle_blaze.client.model;
 
+import com.endilcrafter.candle_blaze.world.entity.CandleBlazeEntity;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
@@ -8,14 +9,13 @@ import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.util.Mth;
-import net.minecraft.world.entity.Entity;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 import java.util.Arrays;
 
 @OnlyIn(Dist.CLIENT)
-public class CandleBlazeModel<T extends Entity> extends HierarchicalModel<T> {
+public class CandleBlazeModel<T extends CandleBlazeEntity> extends HierarchicalModel<T> {
     private final ModelPart root;
     private final ModelPart[] upperBodyParts;
     private final ModelPart head;

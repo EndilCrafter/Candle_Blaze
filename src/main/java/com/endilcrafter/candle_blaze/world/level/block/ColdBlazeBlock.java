@@ -116,7 +116,7 @@ public class ColdBlazeBlock extends HorizontalDirectionalBlock {
         double z = pos.getZ() + 0.5;
         if (level.getBlockState(pos.below()).is(Blocks.MAGMA_BLOCK) && random.nextInt(6) == 0) {
             if (state.getValue(HEAT_LEVEL) > 2) {
-                level.addParticle(ParticleTypes.FLAME, x + (random.nextFloat() * 2.0F - 1.0F) / 3.0F, y + 0.4, z + (random.nextFloat() * 2.0F - 1.0F) / 3.0F,
+                level.addParticle(ParticleTypes.FLAME, x + (random.nextFloat() * 2.0F - 1.0F) / 3.0F, y, z + (random.nextFloat() * 2.0F - 1.0F) / 3.0F,
                         0.0, 0.0, 0.0);
             }
             level.addParticle(ParticleTypes.SMOKE, x, y, z, 0.0, 0.01, 0.0);
